@@ -1,19 +1,30 @@
 {
-  "dependencies": {
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
-  },
+  "name": "laboratorio-juventude-senac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.1",
+    "react-slick": "^0.31.0",
+    "slick-carousel": "^1.8.1"
+  },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.12",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
+    "@types/react-slick": "^0.23.13",
     "@vitejs/plugin-react": "^5.0.1",
-    "tailwindcss": "^4.1.12",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.3",
     "typescript": "^5.9.2",
     "vite": "^7.1.3"
   }
