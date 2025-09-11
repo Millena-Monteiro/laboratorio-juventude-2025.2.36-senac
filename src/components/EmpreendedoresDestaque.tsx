@@ -6,7 +6,7 @@ import '../index.css';
 import logoManicure from '../assets/images/logo-manicure-maria.jpg';
 import logoBarbeiro from '../assets/images/logo-barbeiro-joao.jpg';
 import logoConfeiteira from '../assets/images/logo-confeiteira-ana.jpg';
-import logoPanificadora from '../assets/images/Logo Ribeiro panificadora.png';
+import logoPanificadora from '../assets/images/logo-ribeiro-panificadora.png';
 import logoCalcados from '../assets/images/logo Augostinho loja de calçados.png';
 import logoSemiJoias from '../assets/images/logo Carla S. loja de semijoias.png';
 import logoLancho from '../assets/images/logo Lanchô lanchonete.png';
