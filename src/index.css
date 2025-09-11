@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* --- Estilos para as Setas de Navegação Personalizadas --- */
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 30px;
+    color: #014ba0;
+    opacity: 1;
+}
+
+.slick-prev {
+    left: -30px;
+}
+.slick-next {
+    right: -30px;
+    left: auto;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    transform: translateY(-50%) scale(1.1);
+}
+
+/* --- Estilos para as Bolinhas de Navegação --- */
+.slick-dots {
+    bottom: -40px;
+}
+.slick-dots li button {
+    width: 3px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.slick-dots li.slick-active button {
+    background-color: rgb(255, 255, 255);
+}
+.slick-dots li button::before {
+    content: '';
+    display: none;
+}
+
+.carrossel-depoimentos .slick-prev:before,
+.carrossel-depoimentos .slick-next:before {
+    color: #fff;
+}

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="bg-grotas-laranja text-zinc-800 shadow-md">
+    <header className="bg-laranja-intenso text-zinc-800 shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex flex-col items-center">
@@ -21,6 +21,9 @@ const Header = () => {
           </Link>
           <Link to="/blog" className="text-sm font-medium hover:text-white transition-colors duration-300">
             Blog
+          </Link>
+          <Link to="/sou-cliente" className="text-sm font-medium hover:text-white transition-colors duration-300">
+            Sou cliente
           </Link>
         </nav>
 

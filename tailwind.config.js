@@ -7,10 +7,10 @@ module.exports = {
     extend: {
       colors: {
         'grotas-amarelo': '#eeca06',
-        'grotas-azul': '#14213d',
-        'grotas-cinza-claro': '#f4f4f4',
-        'grotas-carmesim':  '#de183d',
-        'grotas-laranja': '#ff9800',
+        'azul-profundo': '#14213d',
+        'cinza-claro': '#f4f4f4',
+        'laranja-intenso': '#ff9800',
+        'azul-cobalto': '#014ba0',
 
       },
     },
