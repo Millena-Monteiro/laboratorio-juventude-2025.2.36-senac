@@ -2,6 +2,8 @@ import fotoSecao1 from '../assets/images/pexels-cristian-rojas-8448104.jpg';
 import fotoSecao2 from '../assets/images/pexels-divinetechygirl-1181686.jpg';
 import DepoimentosEmpreendedores from '../components/DepoimentosEmpreendedores';
 import EmpreendedoresDestaque from '../components/EmpreendedoresDestaque';
+import ProgramaSEmpreendedores from '../components/ProgramaSEmpreendedores';
+import ProgramaSCarousel from '../components/ProgramaSCarousel';
 
 const PrevArrow = ({ onClick } : { onClick?: () => void }) => (
   <button
@@ -119,6 +121,15 @@ const HomePage = () => {
           <DepoimentosEmpreendedores/>
         </div>
       </section>
+      
+       {/* Seção 6 Parceiros S*/}
+       <ProgramaSEmpreendedores/>
+      <ProgramaSCarousel/>
+      <div className="container mx-auto max-w-5xl px-4 py-8">
+          <p className="text-center text-sm text-gray-500 italic">
+              *As logos acima representam possíveis parceiros e instituições que o programa pode envolver no futuro para oferecer uma rede de apoio completa aos empreendedores.
+          </p>
+      </div>
     </>
   );
 };
