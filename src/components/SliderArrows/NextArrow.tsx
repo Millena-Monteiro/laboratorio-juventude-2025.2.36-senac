@@ -1,6 +1,12 @@
-import React from 'react';
+interface ArrowProps {
+    className?: string;
+    style?: React.CSSProperties;
+    onClick?: React.MouseEventHandler<HTMLDivElement>;
+}
 
-const NextArrow = (props: any) => {
+import React from "react";
+
+const NextArrow = (props: ArrowProps) => {
   const { className, style, onClick } = props;
   return (
     <div
@@ -8,7 +14,7 @@ const NextArrow = (props: any) => {
       style={{ ...style, display: "block" }}
       onClick={onClick}
     >
-      <span className="arrow-icon">&#10095;</span> {/* Caractere ">" */}
+      <span className="arrow-icon">&#10095;</span>
     </div>
   );
 };

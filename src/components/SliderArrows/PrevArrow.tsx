@@ -1,5 +1,3 @@
-import React from 'react';
-
 const PrevArrow = (props: any) => {
   const { className, style, onClick } = props;
   return (
@@ -8,7 +6,7 @@ const PrevArrow = (props: any) => {
       style={{ ...style, display: "block" }}
       onClick={onClick}
     >
-      <span className="arrow-icon">&#10094;</span> {/* Caractere "<" */}
+      <span className="arrow-icon">&#10094;</span>
     </div>
   );
 };
