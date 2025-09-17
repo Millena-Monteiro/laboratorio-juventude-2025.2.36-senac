@@ -4,7 +4,7 @@
 
 
 
-/* --- Estilos para as Setas de Navegação Personalizadas --- */
+/* --- Estilos para as Setas de Navegação --- */
 .slick-prev,
 .slick-next {
     position: absolute;
@@ -57,4 +57,16 @@
 .carrossel-depoimentos .slick-prev:before,
 .carrossel-depoimentos .slick-next:before {
     color: #fff;
+}
+
+@media (max-width: 767px) {
+  .slick-prev {
+    left: 8px;
+    z-index: 10;
+  }
+
+  .slick-next {
+    right: 8px;
+    z-index: 10;
+  }
 }
