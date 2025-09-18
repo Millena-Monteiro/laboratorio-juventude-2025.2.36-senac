@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import SouEmpreendedorPage from './pages/SouEmpreendedorPage';
 import BlogPage from './pages/BlogPage';
 import  SouClientePage from './pages/SouClientePage';
+import VitrinePage from './pages/VitrinePage';
 import './index.css';
 import Footer from './components/Footer';
 import 'slick-carousel';
@@ -18,9 +19,10 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/empreendedores" element={<SouEmpreendedorPage />} />
+            <Route path="/sou-empreendedor" element={<SouEmpreendedorPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/sou-cliente" element={<SouClientePage />} />
+            <Route path="/vitrine" element={<VitrinePage />} />
           </Routes>
         </main>
         <Footer />
