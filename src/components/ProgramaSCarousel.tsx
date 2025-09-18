@@ -51,7 +51,7 @@ const ProgramaSCarousel: React.FC<LogoCarouselProps> = ({ logos = programaSlogos
             <Slider {...settings}>
                 {logos.map((logo, index) => (
                     <div key={index} className="p-2">
-                        <div className="bg-off-with w-43 h-28 md:w-63 md:h-40 flex items-center justify-center rounded-md shadow-md overflow-hidden">
+                        <div className="bg-[#f0f4f8] w-43 h-28 md:w-63 md:h-40 flex items-center justify-center rounded-md shadow-md overflow-hidden">
                         <img 
                             src={logo.src} 
                             alt={logo.alt} 

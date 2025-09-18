@@ -6,12 +6,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'grotas-amarelo': '#eeca06',
         'azul-profundo': '#14213d',
         'cinza-claro': '#f4f4f4',
-        'laranja-intenso': '#ff9800',
+        'laranja-vibrante': '#ff8c00',
+        'laranja-escuro': '#cf7100', 
         'azul-cobalto': '#014ba0',
-
+      },
+      fontFamily: {
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'lato': ['lato', 'sans-serif'],
       },
     },
   },
