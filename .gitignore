@@ -11,3 +11,6 @@ npm-debug.log*
 # Arquivos de sistema e de IDE
 .DS_Store
 .vscode/
+
+#Variaveis de ambiente
+.env
