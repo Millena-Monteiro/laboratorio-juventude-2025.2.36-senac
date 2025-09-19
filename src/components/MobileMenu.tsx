@@ -29,6 +29,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
                 <li><a href="/sou-empreendedor" className="text-white hover:text-[#2f531e]" onClick={onClose}>Sou Empreendedor</a></li>
                 <li><a href="/blog" className="text-white hover:text-[#2f531e]" onClick={onClose}>Blog</a></li>
                 <li><a href="/sou-cliente" className="text-white hover:text-[#2f531e]" onClick={onClose}>Sou Cliente</a></li>
+<li><a href="/sobre" className="text-white hover:text-[#2f531e]" onClick={onClose}>Sobre Nós</a></li>
             </ul>
         </div>
         </div>
