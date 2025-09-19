@@ -24,7 +24,6 @@ Acreditamos que o crescimento vem do apoio mútuo. Por isso, a plataforma Sement
 * **SEMTABES:** Atua no fomento do desenvolvimento social, com programas de microcrédito e economia solidária.
 * **PROCON Maceió:** Oferece orientações sobre o Código de Defesa do Consumidor, garantindo relações justas.
 
-**Aviso:** Este projeto é um protótipo para fins de demonstração. As instituições listadas são parceiros em potencial, alinhados com a visão do projeto de apoiar o empreendedorismo local.
 > **⚠️ Aviso Importante:** Este projeto é um **protótipo** desenvolvido para fins de demonstração. As instituições listadas são parceiros em potencial, alinhados com a visão do projeto de apoiar o empreendedorismo local. Além disso as informações de contato, empresas e a maioria dos dados contidos na vitrine e no blog são **fictícios** e servem apenas para ilustrar a funcionalidade do site.
 
 ## 💻 Tecnologias Utilizadas
