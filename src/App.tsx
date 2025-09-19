@@ -5,6 +5,7 @@ import SouEmpreendedorPage from './pages/SouEmpreendedorPage';
 import BlogPage from './pages/BlogPage';
 import  SouClientePage from './pages/SouClientePage';
 import VitrinePage from './pages/VitrinePage';
+import SobreNosPage from './pages/SobreNosPage';
 import './index.css';
 import Footer from './components/Footer';
 import 'slick-carousel';
@@ -23,6 +24,7 @@ function App() {
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/sou-cliente" element={<SouClientePage />} />
             <Route path="/vitrine" element={<VitrinePage />} />
+            <Route path="/sobre" element={<SobreNosPage />} />
           </Routes>
         </main>
         <Footer />

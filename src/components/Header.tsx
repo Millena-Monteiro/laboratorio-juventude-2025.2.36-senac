@@ -32,6 +32,9 @@ const Header = () => {
           <Link to="/sou-cliente" className="text-sm font-medium hover:text-[#2f531e] transition-colors duration-300">
             Sou cliente
           </Link>
+          <Link to="/sobre" className="text-sm font-medium hover:text-[#2f531e] transition-colors duration-300">
+            Sobre Nós
+          </Link>
         </nav>
 
         <button 

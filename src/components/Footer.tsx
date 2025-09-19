@@ -18,6 +18,7 @@ const Footer = () => {
             <li><a href="/sou-empreendedor" className="text-sm hover:underline">Sou Empreendedor</a></li>
             <li><a href="/blog" className="text-sm hover:underline">Blog</a></li>
             <li><a href="/sou-cliente" className="text-sm hover:underline">Sou Clientes</a></li>
+            <li><a href="/sobre" className="text-sm hover:underline">Sobre Nós</a></li>
           </ul>
         </div>
 

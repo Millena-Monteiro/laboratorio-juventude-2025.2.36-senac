@@ -2,8 +2,7 @@ import fotoSecao1 from '../assets/images/HomeImages/pexels-cristian-rojas-844810
 import fotoSecao2 from '../assets/images//HomeImages/pexels-divinetechygirl-1181686.jpg';
 import DepoimentosEmpreendedores from '../components/DepoimentosEmpreendedores';
 import EmpreendedoresDestaque from '../components/EmpreendedoresDestaque';
-import ProgramaSEmpreendedores from '../components/ProgramaSEmpreendedores';
-import ProgramaSCarousel from '../components/ProgramaSCarousel';
+import PossiveisParceiros from '../components/PossiveisParceiros';
 
 const PrevArrow = ({ onClick } : { onClick?: () => void }) => (
   <button
@@ -61,9 +60,7 @@ const HomePage = () => {
             Sementes de Empreender
           </h1>
           <p className="text-lg md:text-xl leading-relaxed mb-8">
-            Apoie e promova empreendedores de todos os tipos nas comunidades de Maceió. Juntos,
-            estamos construindo um futuro de progresso através de empreendimentos familiares, femininos
-            e de jovens que transformam suas vidas.
+            Cada sonho de empreender é uma semente que merece florescer. Nosso projeto é uma rede de apoio para a comunidade, promovendo a autonomia e o crescimento de todos os tipos de empreendedores. Liderados por famílias, mulheres, mães e pais solo, pessoas negras, pardas, pessoas com deficiência, jovens e a comunidade LGBTQIA+, nosso objetivo é dar voz e visibilidade a quem está construindo um futuro de prosperidade com as próprias mãos.
           </p>
         </div>
       </section>
@@ -103,26 +100,12 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-     {/* Seção 3 Parceiros Empreendedores */}
+
       <EmpreendedoresDestaque/>
 
-      {/* Seção 4: Depoimentos dos Empreendedores */}
           <DepoimentosEmpreendedores/>
       
-       {/* Seção 5 Parceiros S*/}
-       <section className='bg-cinza-claro py-16'>
-       <ProgramaSEmpreendedores/>
-       <h2 className="text-3xl font-bold text-center mb-10">
-           <span className='text-laranja-vibrante'>Quem Cultiva</span> Nossas Sementes
-          </h2>
-          <p className='text-center'>A nossa jornada floresce graças ao apoio de parceiros que investem no poder da transformação social.</p>
-       <ProgramaSCarousel/>
-      <div className="container mx-auto max-w-5xl px-4 py-8">
-          <p className="text-center text-sm text-gray-500 italic">
-              *As logos acima representam possíveis parceiros e instituições que o programa pode envolver no futuro para oferecer uma rede de apoio completa aos empreendedores.
-          </p>
-      </div>
-      </section>
+       <PossiveisParceiros/>
     </>
   );
 };
