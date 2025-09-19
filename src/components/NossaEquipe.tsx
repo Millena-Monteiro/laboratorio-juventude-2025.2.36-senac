@@ -53,7 +53,7 @@ const NossaEquipe = () => {
             <div className="bg-white rounded-lg p-4 shadow-md transform transition-transform duration-300 hover:scale-105">
                 <img 
                     src={hillaryImage}
-                    alt="Nome do Membro 1" 
+                    alt="Hillary Sophia" 
                     className="w-24 h-24 rounded-full mx-auto mb-3 object-cover" 
                 />
                 <h3 className="text-lg font-bold leading-tight text-azul-profundo">Hillary Sophia</h3>
@@ -64,7 +64,7 @@ const NossaEquipe = () => {
             <div className="bg-white rounded-lg p-4 shadow-md transform transition-transform duration-300 hover:scale-105">
                 <img 
                     src={claraImage}
-                    alt="Nome do Membro 1" 
+                    alt=" Maria Clara "
                     className="w-24 h-24 rounded-full mx-auto mb-3 object-cover" 
                 />
                 <h3 className="text-lg font-bold leading-tight text-azul-profundo">Maria Clara</h3>
@@ -120,7 +120,7 @@ const NossaEquipe = () => {
             <div className="bg-white rounded-lg p-4 shadow-md transform transition-transform duration-300 hover:scale-105">
                 <img 
                     src={millenaImage} 
-                    alt="Nome do Membro 1" 
+                    alt="Millena Monteiro" 
                     className="w-24 h-24 rounded-full mx-auto mb-3 object-cover" 
                 />
                 <h3 className="text-lg font-bold leading-tight text-azul-profundo">Millena Monteiro</h3>
