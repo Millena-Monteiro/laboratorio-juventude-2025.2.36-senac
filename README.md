@@ -9,8 +9,22 @@ O site foi desenvolvido com foco em dois públicos principais, que têm suas jor
 
 Além disso, o site atua como:
 -   **Fonte de Informações:** Uma área com notícias sobre cursos gratuitos, eventos e capacitações, para que os empreendedores possam se desenvolver.
--   **Parceiro de Apoio:** Um destaque para a iniciativa do **Programa S**, que oferece recursos e apoio essenciais para a competitividade desses negócios.
 
+-   ### Recursos e Parcerias
+
+Acreditamos que o crescimento vem do apoio mútuo. Por isso, a plataforma Sementes de Empreender atua como um guia, conectando pequenos empreendedores a instituições que oferecem suporte essencial.
+
+**Capacitação e Desenvolvimento Profissional**
+* **SEBRAE:** Oferece cursos e consultorias para aprimorar gestão, marketing e finanças de micro e pequenas empresas.
+* **SENAC:** Focado em qualificação profissional no setor de comércio e serviços.
+* **SENAI:** Voltado para a indústria, com cursos técnicos e de aperfeiçoamento.
+
+**Formalização e Segurança Jurídica**
+* **SEFAZ Maceió:** Apoia com a gestão tributária, emissão de notas fiscais e alvarás.
+* **SEMTABES:** Atua no fomento do desenvolvimento social, com programas de microcrédito e economia solidária.
+* **PROCON Maceió:** Oferece orientações sobre o Código de Defesa do Consumidor, garantindo relações justas.
+
+**Aviso:** Este projeto é um protótipo para fins de demonstração. As instituições listadas são parceiros em potencial, alinhados com a visão do projeto de apoiar o empreendedorismo local.
 > **⚠️ Aviso Importante:** Este é um **protótipo** desenvolvido para fins de demonstração. As informações de contato, empresas e a maioria dos dados contidos na vitrine e no blog são **fictícios** e servem apenas para ilustrar a funcionalidade do site.
 
 ## 💻 Tecnologias Utilizadas
