@@ -3,6 +3,7 @@ import DicasEmpreendedor from '../components/SouEmpreendedor/DicasEmpreendedor';
 import CursosGratuitos from '../components/SouEmpreendedor/CursosGratuitos';
 import ChamadaCadastro from '../components/SouEmpreendedor/ChamadaCadastro';
 import AvisoPrototipo from '../components/AvisoPrototipo';
+import biroskaImage from '../assets/images/PageSouEmpreendedor/biroska-lanches-image.jpg'
 
 const SouEmpreendedor = () => {
   return (
@@ -121,6 +122,39 @@ const SouEmpreendedor = () => {
           </div>
         </div>
       </section>
+
+<section className="bg-gray-100 py-16 px-4 md:px-8">
+    <div className="container mx-auto max-w-4xl">
+        <h2 className="text-3xl font-bold text-center mb-10" style={{ color: '#012e61' }}>
+            Histórias que Inspiram
+        </h2>
+
+        {/* Card do Depoimento Biroske Lanches */}
+        <div className="bg-white rounded-lg p-8 shadow-lg transform transition-transform duration-300 hover:scale-105">
+            <div className="flex justify-center mb-6">
+                <img 
+                    src={biroskaImage}
+                    alt="Logo BIROSKA Lanches" 
+                    className="h-20 w-auto" 
+                />
+            </div>
+            
+            <blockquote className="text-xl italic text-gray-700 leading-relaxed text-center">
+    <p className="mb-4">
+        "Tudo começou depois da aposentadoria. O tempo ocioso me fez enxergar um novo caminho, uma oportunidade de transformar a vida e o tempo em algo produtivo. A maior dificuldade que enfrento hoje não é a falta de mão de obra qualificada, mas a falta de vontade de trabalhar dos meus colaboradores. No entanto, sigo em frente, com foco no meu negócio e na qualidade dos meus produtos."
+    </p>
+    <p>
+        "Para garantir que nada falte, a organização é diária, desde o estoque até as compras. E para que todos tenham acesso, busco uma margem de lucro justa, mantendo os preços acessíveis. A concorrência? Acredito que ela não existe quando você foca em fazer o seu, sem olhar para o outro. E é com essa mentalidade que busco sempre inovar, divulgando meu trabalho no boca a boca e nas redes sociais, e conquistando a confiança de cerca de 600 clientes por dia."
+    </p>
+</blockquote>
+
+            <div className="text-center font-bold text-azul-profundo">
+                <p>Seu Carlos</p>
+                <p className="text-sm font-normal text-gray-500">BIROSKA Lanches</p>
+            </div>
+        </div>
+    </div>
+</section>
 
     <section> 
     <ChamadaCadastro/>

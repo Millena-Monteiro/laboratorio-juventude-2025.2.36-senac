@@ -164,12 +164,6 @@ const NossaEquipe = () => {
                 <p className="text-xs font-semibold text-laranja-vibrante">Apresentação: Conclusão</p>
             </div>
         </div>
-        
-        <div className="mt-16 pt-8 border-t border-gray-300">
-            <p className="text-gray-600 text-sm">
-                *Protótipo desenvolvido por: Millena Monteiro
-            </p>
-        </div>
     </div>
 </section>
     );
